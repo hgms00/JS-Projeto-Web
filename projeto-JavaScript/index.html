@@ -20,7 +20,7 @@
                             <li><input type="button" value="Remover um produto" id="remove" onClick=panelChanger(this.id)></li>
                             <li><input type="button" value="Ver meu carrinho" id="view" onClick=panelChanger(this.id)></li>
                             <li><input type="button" value="Buscar por produto" id="search" onClick=panelChanger(this.id)></li>
-                            <li><input type="button" value="Ver estoque" id="viewProducts" onClick="viewProducts"></li>
+                            <li><input type="button" value="Ver estoque" id="viewProducts" onClick="panelChanger(this.id)"></li>
                         </ul>
                     </nav>
         </header>
@@ -130,8 +130,13 @@
              </div>
         
              <div class="hidden" id="divView">
-                   
+                 
              </div>
+        
+              <div class="hidden" id="divViewProducts">
+               
+
+              </div>
             
             
     </body>
